@@ -1,0 +1,69 @@
+.app__gallery {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app__gallery h1 {
+  text-align: center;
+  color: var(--color-lightYellow);
+  font-family: var(--font-alt);
+}
+
+.app__gallery-content {
+  width: 100%;
+  overflow: hidden;
+}
+
+.app__gallery-container {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding: 2rem 0;
+}
+
+.app__gallery-container .carousel {
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.app__gallery-container .carousel div {
+  max-height: 80vh;
+}
+
+.gallery-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app__gallery-carousel {
+  max-width: 100%;
+  height: 80vh;
+}
+
+.app__gallery-carousel .slider {
+  height: 100%;
+}
+
+.app__gallery-carousel .carousel-slider {
+  width: 100%;
+  height: 100%;
+}
+
+.app__gallery-carousel > div > div {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-root {
+  border-radius: 1rem;
+}
+  

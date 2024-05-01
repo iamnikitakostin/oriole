@@ -1,0 +1,25 @@
+.app__landing {
+    display: flex;
+    min-height: 100vh;
+    background-image: url('../../assets/bg.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.app__landing-bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(30,35,40,0.75);
+    z-index: 0;
+}
+
+@media screen and (max-width: 1050px) {
+    .app__landing {
+        flex-direction: column;
+    }
+} 

@@ -82,12 +82,7 @@
 
 h1 {
     font: var(--font-alt);
-    font-size: 30px;
     color: var(--color-lightSilver);
-}
-
-.headtext__tenor {
-    font-size: 64px;
 }
 
 .p__opensans {

@@ -5,22 +5,23 @@ import "./ContactUs.css";
 function ContactUs() {
   return (
     <div className="app__findUs section__padding" id="contact">
+      <h1 className='headtext__base'>Contact Us</h1>
       <div className="app__findUs-container">
         <div className="app__findUs-info">
           <div className='findUs__location'>
-            <h2 className='headtext__base' style={{fontFamily: "var(--font-alt)", fontWeight: "300"}}>Address</h2>
-            <p className='p__base' style={{fontWeight: "400"}}>1200 W 73rd Ave, Vancouver, BC V6P 6Z1</p>
+            <h2 className='p__base' style={{fontFamily: "var(--font-base)", fontWeight: "600"}}>Address</h2>
+            <p className='p__base' style={{fontWeight: "200"}}>1200 W 73rd Ave, Vancouver, BC V6P 6Z1</p>
           </div>
           <div className='findUs__hours'>
-            <h2 className='headtext__base' style={{fontFamily: "var(--font-alt)", fontWeight: "300"}}>Open Hours</h2>
+            <h2 className='p__base' style={{fontFamily: "var(--font-base)", fontWeight: "600"}}>Open Hours</h2>
             <ul>
-              <li className='p__base' style={{fontWeight: "400"}}>Mon - Fri: 9 a.m. – 3 p.m.</li>
-              <li className='p__base' style={{fontWeight: "400"}}>Sat - Sun: Closed</li>
+              <li className='p__base' style={{fontWeight: "200"}}>Mon - Fri: 9 a.m. – 3 p.m.</li>
+              <li className='p__base' style={{fontWeight: "200"}}>Sat - Sun: Closed</li>
             </ul>
           </div>
           <div className="findUs__contacts">
-          <h2 className='headtext__base' style={{fontFamily: "var(--font-alt)", fontWeight: "300"}}>Call Us</h2>
-            <p className='p__base' style={{fontWeight: "400"}}>+1 (604) 263-2691</p>
+          <h2 className='p__base' style={{fontFamily: "var(--font-base)", fontWeight: "600"}}>Call Us</h2>
+            <p className='p__base' style={{fontWeight: "200"}}>+1 (604) 263-2691</p>
           </div>
           <div className='horizontal__divider'/>
           <div className='findUs__identity-social'>
@@ -48,7 +49,7 @@ function ContactUs() {
               </iframe>
             </div>
           <div className='app__developer' style={{marginTop: "1rem"}}>
-            <p className='p__base'>Developed by <a href='https://nikitakostin.com' target='_blank' rel="noreferrer" style={{textDecoration: "underline"}}>Nikita Kostin</a></p>
+            <p className='p__base' style={{fontWeight: "200"}}>Developed by <a href='https://nikitakostin.com' target='_blank' rel="noreferrer" style={{textDecoration: "underline", fontWeight: "200"}}>Nikita Kostin</a></p>
           </div>
         </div>
       </div>

@@ -1,6 +1,4 @@
 import React from 'react';
-import { GiHamburgerMenu } from 'react-icons/gi';
-import { MdOutlineRestaurantMenu } from 'react-icons/md';
 
 import coffee from "../../assets/coffee-cup.png"
 
@@ -8,7 +6,6 @@ import './Nav.css';
 
 const Nav = () => {
   
-  const [toggleMenu, setToggleMenu] = React.useState(false);
 
   return(
   <nav className='app__navbar'>

@@ -21,6 +21,7 @@ function Menu() {
       (entries) => {
         if (entries[0].isIntersecting && !hasScrolled) {
           triggerScrollEffect(menuRef.current);
+          // eslint-disable-next-line
           hasScrolled = true;
         }
       },
@@ -30,9 +31,9 @@ function Menu() {
     if (menuRef.current) {
       observer.observe(menuRef.current);
     }
-
     return () => {
       if (menuRef.current) {
+        // eslint-disable-next-line
         observer.unobserve(menuRef.current);
       }
     };

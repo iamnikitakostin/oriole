@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/oriole/static/css/main.497e99aa.css",
+    "main.js": "/oriole/static/js/main.58c1eb40.js",
+    "static/js/453.abed37b0.chunk.js": "/oriole/static/js/453.abed37b0.chunk.js",
+    "static/media/coffee-cup.png": "/oriole/static/media/coffee-cup.1907bff495e9e5acf3c5.png",
+    "static/media/bg.jpg": "/oriole/static/media/bg.a749b1d145e39558e797.jpg",
+    "static/media/2.jpeg": "/oriole/static/media/2.ae3c0ec9c8da35020dc1.jpeg",
+    "static/media/4.jpeg": "/oriole/static/media/4.510c48791798d0ac3b1b.jpeg",
+    "static/media/1.jpeg": "/oriole/static/media/1.10d4cc55be9585710599.jpeg",
+    "static/media/3.jpeg": "/oriole/static/media/3.d294d42e6ac7557c50a9.jpeg",
+    "static/media/about.jpg": "/oriole/static/media/about.3122364d158a3df795de.jpg",
+    "static/media/global_bg.png": "/oriole/static/media/global_bg.18f399bb7ecc11faa0b3.png",
+    "static/media/logo.png": "/oriole/static/media/logo.b8caaf06ec1ae036c908.png",
+    "index.html": "/oriole/index.html",
+    "main.497e99aa.css.map": "/oriole/static/css/main.497e99aa.css.map",
+    "main.58c1eb40.js.map": "/oriole/static/js/main.58c1eb40.js.map",
+    "453.abed37b0.chunk.js.map": "/oriole/static/js/453.abed37b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.497e99aa.css",
+    "static/js/main.58c1eb40.js"
+  ]
+}
